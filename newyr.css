@@ -1,0 +1,150 @@
+body {
+    background-image: url("bg.gif");
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+    .panel-default > .panel-heading-custom {
+        background: #8e44ad; color: #fff;
+    }
+    .para {
+        font-size: 14px;
+    }
+    .phead {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .footer {
+        margin-top: 1.5em;
+    }
+    .footer-text {
+        font-size: 14px;
+        text-align: center;
+        font-weight: 400;
+    }
+    p {
+        line-height: 1.5;
+        font-weight: 400;
+        letter-spacing: 0;
+        color: #2c3643;
+    }
+.post-content img {
+    max-height: 100%;
+    max-width: 100%;
+    }
+    .post-title{
+        font-size:23px
+    }
+    .post-content h2 {
+        font-size:23px
+    }
+    .post-content p {
+        line-height: 24px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .post-author {
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #000;
+        font-weight: 700;
+    }
+    .veer {
+        border: 2px solid rgb(255, 204, 0);
+        padding: 8px 10px;
+        font-size: 120%;
+        color: black;
+        font-weight: bold;
+        background-color: rgb(255, 255, 153);
+        border-radius:20px 20px 0 20px;
+        } 
+.panel-default > .panel-heading-custom {
+ background: #8e44ad; color: #fff;
+}
+.btn {
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+}
+@media only screen and (max-width:480px) {
+ .h-mbl {
+ display: none !important;}
+ }
+.veer-img {
+border:5px solid #d2d2d2;
+padding:2px;
+}
+.veer-panel {
+background-color: #b3e5fc;}
+.hello-head{font-weight: bold;font-variant: small-caps;text-align: center;font-size: 45px;}
+.home-logo {
+  font-family: Lato;
+  font-size: 24px;
+  font-style: oblique;
+  font-variant: normal;
+  font-weight: bold;
+  line-height: 37.5px;
+}
+.home-footer{padding:20px 0;background-color:#666;color:#FFF;margin:25px 0 0}
+.lnf{color:#fff;}
